@@ -1,4 +1,4 @@
-# {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,19 +15,24 @@
   display: flex;
   justify-content: center;
   position: relative;
+  text-align: left;
 }
 
 .skills {
   display: flex;
   align-items: center;
-  position: absolute;
-  margin: 50px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-text {
+  display: flex;
   flex-direction: column;
-  position: relative;
-  margin: 20px 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
 }
 
 h1 {
@@ -50,7 +55,10 @@ h1 {
   flex-direction: column;
   position: relative;
   margin-right: 20px;
-  gap: 40rem;
+}
+
+.hero-buttons {
+  margin-top: 0px;
 }
 
 .hero-buttons a {
@@ -59,8 +67,12 @@ h1 {
   padding: 15px;
   border-radius: 4px;
   text-decoration: none;
-  gap: 4rem;
+  margin-right: 1rem;
   cursor: pointer;
+}
+
+.hero-buttons a:hover {
+  background-color: #fe5e9e;
 }
 
 p {
@@ -72,6 +84,9 @@ p {
 ul {
   display: flex;
   list-style: none;
-  flex-direction: flex;
   gap: 2rem;
+}
+
+.skills p {
+  margin-right: 1rem;
 }
