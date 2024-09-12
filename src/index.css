@@ -18,6 +18,12 @@
   text-align: left;
 }
 
+.hero-main {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align content to the left within the container */
+}
+
 .skills {
   display: flex;
   align-items: center;
@@ -38,7 +44,6 @@
 h1 {
   font-family: Poppins;
   align-items: center;
-  padding: 20px;
 }
 
 .hero-text h1 {
@@ -48,6 +53,7 @@ h1 {
   line-height: 1.2;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  padding: 0;
 }
 
 .hero-text p {
@@ -79,6 +85,8 @@ p {
   display: block;
   color: #555;
   font-size: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
