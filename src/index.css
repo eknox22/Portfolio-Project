@@ -98,3 +98,23 @@ ul {
 .skills p {
   margin-right: 1rem;
 }
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0px;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff96c8;
+}
+
+.social-icons i {
+  transition: color 0.3s;
+}
