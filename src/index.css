@@ -6,7 +6,7 @@
 
 .hero {
   background-color: #f9f9f9;
-  padding: 160px 20px;
+  padding: 220px 20px;
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .hero-text {
@@ -82,11 +82,13 @@ h1 {
 }
 
 p {
+  font-family: Mulish, sans-serif;
   display: block;
   color: #555;
   font-size: 16px;
   padding: 0;
   margin: 0;
+  line-height: 30px;
 }
 
 ul {
@@ -103,6 +105,7 @@ ul {
   display: flex;
   gap: 1rem;
   margin-top: 0px;
+  margin-bottom: 60px;
 }
 
 .social-icons a {

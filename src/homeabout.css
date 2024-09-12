@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --branding-color: #ff96c8;
+}
+.content {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+}
+
+.about-content .hero-text {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align content to the left within the container */
+}
+
+.text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
+
+.image-wrapper {
+  width: 100%; /* Adjust the width as needed */
+  text-align: center; /* Center the image horizontally */
+}
+
+.image-wrapper img {
+  max-width: 100%; /* Ensure the image scales down for smaller screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.about-me {
+  font-family: Poppins;
+  color: #ff96c8;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.about-job,
+.project-description {
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 35px;
+}
+
+.aboutButton {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.text-side,
+.laptop {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .text-side {
+    padding: 0;
+    text-align: center;
+  }
+}
