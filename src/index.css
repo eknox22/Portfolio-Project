@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+:root {
+  --branding-color: #ff96c8;
+}
+
 .hero {
   background-color: #f9f9f9;
   padding: 220px 20px;
@@ -20,8 +24,8 @@
 
 .hero-main {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: flex-start; /* Align content to the left within the container */
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .skills {
