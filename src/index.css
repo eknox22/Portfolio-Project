@@ -45,10 +45,6 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.hero-text img {
-  position: absolute;
-}
-
 .hero-text p {
   font-family: Mulish, sans-serif;
   flex-direction: column;
