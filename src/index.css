@@ -1,0 +1,81 @@
+# {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  padding: 160px 20px;
+  margin: 0 auto;
+}
+
+.content {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 50px 20px;
+}
+
+.hero-text {
+  flex-direction: column;
+  position: relative;
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: Poppins;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: 500;
+  margin-left: 0 auto;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text img {
+  position: absolute;
+}
+
+.hero-text p {
+  font-family: Mulish, sans-serif;
+  flex-direction: column;
+  position: relative;
+  margin-right: 20px;
+  gap: 40rem;
+}
+
+.hero-buttons a {
+  background-color: #ff96c8;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  gap: 4rem;
+  cursor: pointer;
+}
+
+p {
+  display: block;
+  color: #555;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: flex;
+  gap: 2rem;
+}
