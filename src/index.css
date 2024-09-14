@@ -6,10 +6,7 @@
 
 :root {
   --branding-color: #ff96c8;
-}
-
-:root {
-  --branding-color: #ff96c8;
+  --font-family: Poppins;
 }
 
 .hero {
@@ -157,15 +154,6 @@ ul {
   padding: 120px 60px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  --branding-color: #ff96c8;
-}
 .content {
   align-content: center;
   display: flex;
@@ -235,6 +223,27 @@ ul {
 .text-side,
 .laptop {
   padding: 120px 60px;
+}
+
+.about {
+  text-align: center;
+  font-family: var(--font-family);
+  padding: 120px 0px 40px 0px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  font-size: 35px;
+  line-height: 50px;
+  font-family: var(--font-family);
+}
+
+.about-section h3 {
+  font-size: 14px;
+  font-family: var(--font-family);
 }
 
 @media (max-width: 900px) {
