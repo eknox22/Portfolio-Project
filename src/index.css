@@ -456,6 +456,10 @@ footer .social-links a:hover{
     padding: 30px;
   }
 
+  footer .email-link {
+    font-size: 15px;;
+  }
+
     h4 {
     font-size: 16px;
   }
@@ -482,4 +486,6 @@ btn {
   .h1 {
     font-size: 24px;
   }
+
+   
 }
