@@ -356,6 +356,12 @@ footer .social-links a:hover{
   border-radius: 50%;
 }
 
+.footer-info {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
 
 @media (max-width: 900px) {
   h1 {
@@ -456,6 +462,10 @@ footer .social-links a:hover{
 
 btn {
   font-size: 18px;
+}
+
+.footer-info {
+  font-size: 10px;
 }
 }
 
