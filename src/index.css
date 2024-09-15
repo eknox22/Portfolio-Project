@@ -13,7 +13,7 @@
 
 .hero {
   background-color: #f9f9f9;
-  padding: 220px 20px;
+  padding: 60px 20px;
   margin: 0 auto;
 }
 
@@ -234,7 +234,17 @@ ul {
 .about {
   text-align: center;
   font-family: var(--font-family);
-  padding: 120px 0px 40px 0px;
+  padding: 0px 0px 40px 0px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.about-container {
+  text-align: center;
+  font-family: var(--font-family);
+  padding: 60px 0px 40px 0px;
   font-size: 64px;
   font-weight: 500;
   line-height: 1.2;
